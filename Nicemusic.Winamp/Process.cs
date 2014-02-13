@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 using Processes = System.Diagnostics;
 
 namespace Nicemusic.Winamp
 {
-    using System.IO;
-    using System.Runtime.InteropServices;
-
     public static class Process
     {
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
@@ -25,10 +21,7 @@ namespace Nicemusic.Winamp
 
         [DllImport("user32.dll")]
         static extern IntPtr SendMessage(IntPtr hWnd, UInt32 msg, Int32 wParam, Int32 lParam);
-
-        [DllImport("user32.dll")]
-        static extern uint GetWindowThreadProcessId(IntPtr hWnd, IntPtr processId);
-
+        
         [DllImport("kernel32.dll")]
         static extern IntPtr OpenProcess(ProcessAccessFlags dwDesiredAccess, [MarshalAs(UnmanagedType.Bool)] bool bInheritHandle, int dwProcessId);
 
