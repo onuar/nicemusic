@@ -51,7 +51,9 @@ namespace Nicemusic.Winamp
             ReadProcessMemory(hwndWinampP, baseAddress, value, 256, out numberOfBytesRead);
             CloseHandle(hwndWinampP);
 
-            var filePath = Encoding.UTF8.GetString(value);
+
+            var filePath = Encoding.GetEncoding("iso-8859-9").GetString(value);
+
 
             filePath = filePath.Substring(0, filePath.IndexOf("\0"));
 
