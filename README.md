@@ -3,8 +3,10 @@ nicemusic
 
 bir nevi winamp plug-in'i
 
-yine tamamen kendi ihtiyacımdan yaptığım, gayet kötü yazılmış ama işlevsel bir çalışma.
+yine tamamen kendi ihtiyacÄ±mdan yaptÄ±ÄŸÄ±m, gayet kÃ¶tÃ¼ yazÄ±lmÄ±ÅŸ ama iÅŸlevsel bir Ã§alÄ±ÅŸma.
 
-olay gayet basit: winamp'tan müzik dinlerken, beğendiğin şarkıları mp3 çalarına atmak. bu sayede mp3 çalarında bir favori listesi oluşturmuş oluyorsun.
+olay gayet basit: winamp'tan mÃ¼zik dinlerken, beÄŸendiÄŸin ÅŸarkÄ±larÄ± mp3 Ã§alarÄ±na atmak. bu sayede mp3 Ã§alarÄ±nda bir favori listesi oluÅŸturmuÅŸ oluyorsun.
 
-ama dediğim gibi, gayet kötü yazıldı. fırsat buldukça toparlayıp yeni özellikler ekleyeceğim.
+ama dediÄŸim gibi, gayet kÃ¶tÃ¼ yazÄ±ldÄ±. fÄ±rsat buldukÃ§a toparlayÄ±p yeni Ã¶zellikler ekleyeceÄŸim.
+
+14042016 (edit): eklemedi.
